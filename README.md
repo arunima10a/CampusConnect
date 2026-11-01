@@ -101,4 +101,4 @@ Registration JSON fields: `eventId`, `fullName`, `studentId`, `collegeEmail`, `d
 ## Verification
 
 Run `cd backend && go test ./...` and `cd frontend && npm run build`. The admin panel redirects to `/admin/login` when no valid backend session exists. The backend, not just the UI, protects event writes. Authentication is suitable for this local assignment demo; it has not been independently security-audited for production deployment.
-# CampusConnect
+
